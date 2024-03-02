@@ -1,0 +1,1 @@
+ganache-cli --port 8546 --fork https://ethereum-sepolia.blockpi.network/v1/rpc/public --verbose    --mnemonic  "claw aware right regular security second any useless turkey agent eagle announce"

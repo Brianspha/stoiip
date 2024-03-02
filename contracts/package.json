@@ -1,0 +1,26 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ds-test": "https://github.com/dapphub/ds-test",
+    "forge-std": "github:foundry-rs/forge-std#v1.7.6"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-foundry": "^1.1.1",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "5.0.2",
+    "@openzeppelin/contracts-upgradeable": "5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.0.4",
+    "@sablier/v2-core": "^1.1.2",
+    "@story-protocol/protocol-core": "^1.0.0-beta-rc6",
+    "@story-protocol/protocol-periphery": "^1.0.0-beta-rc1",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.20.1"
+  },
+  "scripts": {
+    "deploy:local":"forge build; forge script script/STOIIP.s.sol --rpc-url http://localhost:8546  -vvv",
+    "test:":"forget test -vvvvv"
+  }
+}
